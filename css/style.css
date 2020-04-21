@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-size: 15px;
+}
+
+.main-nav{
+    height: 60px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    
+}
+
+.name{
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-nav .menu{
+    list-style: none;
+    display: flex;
+}
+
+.menu li>a{
+    text-decoration: none;
+    color: #000;
+}
+
+.menu li i{
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.menu li .facebook:hover{
+    color: darkblue;
+}
+
+.menu li .twitter:hover{
+    color: cornflowerblue;
+}
+
+.menu li .linkedin:hover{
+    color: blue;
+}
+
+.menu li .github:hover{
+    color: darkolivegreen;
+}
+
+/* Header */
+header{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-shadow:  2px 5px 3px rgba(101, 102, 102, 0.5);
+}
+
+header .img{
+    width: 15%;
+    height: 225px;
+    background: url("../img/me.jpg") no-repeat center center/cover;
+    border: 2px solid rgba( 0, 0, 0, 0.7);
+    border-radius: 50%;
+    
+}
+
+header .resume{
+    width: 10%;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 18px;
+}
